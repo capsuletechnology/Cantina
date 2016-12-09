@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		x:Class="Manhattan.View.Login"
+		Style="{StaticResource StyleBg}"
+		Padding="10">
+  <ContentPage.Content>
+    <ScrollView>
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+      <StackLayout Padding="50,0,50,0">
+        <Image Source="logo.png" />
+      </StackLayout>
+      <StackLayout VerticalOptions="End">
+        <Grid>
+          <StackLayout Grid.Row="0" Padding="10" BackgroundColor="White">
+            <Entry Grid.Row="0" Text="" x:Name="UsuarioEntry" Placeholder="Usuário" TextChanged="UserChanged" />
+            <Entry Grid.Row="1" Text="" x:Name="SenhaEntry" IsPassword="true" Placeholder="Senha" TextChanged="PassChanged" />
+            <Button Grid.Row="2" Text="LOGIN" Clicked="LoginClicked" x:Name="LoginButton" Style="{StaticResource StyleRedButton}"/>
+            <Button Grid.Row="3" Text="REGISTRAR-ME" x:Name="RegistrarButton" Clicked="RegistrarClicked" Style="{StaticResource StyleBlueButton}"/>
+          </StackLayout>
+        </Grid>
+      </StackLayout>
+    </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

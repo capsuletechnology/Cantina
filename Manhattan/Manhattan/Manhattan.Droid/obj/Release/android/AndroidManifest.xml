@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.capsuletechnology.manhattan">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.FLASHLIGHT" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:icon="@drawable/icon" android:label="Cantina SENAC" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Cantina SENAC" android:theme="@style/MainTheme" android:name="md51b5d9d1aca9b68ed9a681c018a314cb2.MainActivity" />
+    <activity android:configChanges="orientation|screenSize" android:label="Cantina SENAC" android:noHistory="true" android:theme="@style/SplashTheme" android:name="md51b5d9d1aca9b68ed9a681c018a314cb2.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:configChanges="keyboardHidden|orientation|screenLayout" android:label="Scanner" android:name="md55109d95aac470e32f9a4031a908f0227.ZxingActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.capsuletechnology.manhattan.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

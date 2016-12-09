@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Manhattan.Behaviors;assembly=Manhattan"
+		x:Class="Manhattan.View.Registrar"
+		Style="{StaticResource StyleBg}"
+		Padding="10">
+  <ContentPage.Content>
+    <ScrollView>
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+      <StackLayout Padding="50,0,50,0">
+        <Image Source="logo.png" />
+      </StackLayout>
+        <Grid>          
+          <StackLayout Grid.Row="0" Padding="10" BackgroundColor="White">
+            <Entry Grid.Row="1" Text="" x:Name="NomeEntry" Placeholder="Nome" TextChanged="NameChanged"/>
+            <Entry Grid.Row="1" Text="" x:Name="SobrenomeEntry" Placeholder="Sobrenome" TextChanged="NameChanged"/>
+            <Entry Grid.Row="2" Text="" x:Name="TelefoneEntry" Placeholder="(__) _____-____" TextChanged="CelChanged"/>
+            <Entry Grid.Row="3" Text="" x:Name="CPFEntry" Placeholder="CPF" TextChanged="CpfChanged"/>
+            <Entry Grid.Row="4" Text="" x:Name="UsuarioEntry" Placeholder="Usuário" TextChanged="UserChanged"/>
+            <Entry Grid.Row="5" x:Name="SenhaEntry" Placeholder="Nova Senha" IsPassword="true" TextChanged="PassChanged">
+              <Entry.Behaviors>
+                <local:RequiredValidatorBehavior x:Name="SenhaEntryValidator"/>
+              </Entry.Behaviors>
+            </Entry>
+            <Entry Grid.Row="6" x:Name="ConfirmarSenhaEntry" Placeholder="Confirmar Senha" IsPassword="true" TextChanged="PassChanged">
+              <Entry.Behaviors>
+                <local:ComparisonBehavior x:Name="ConfirmarSenhaEntryBehavior" CompareToEntry="{Binding Source={x:Reference SenhaEntry}}" />
+              </Entry.Behaviors>
+            </Entry>
+            <Button Grid.Row="7" Text="REGISTRAR" x:Name="RegistrarButton"  Clicked="RegistrarClicked" Style="{StaticResource StyleRedButton}"/>
+            <Button Grid.Row="8" Text="CANCELAR" x:Name="CancelarButton" Clicked="CancelarClicked" Style="{StaticResource StyleBlueButton}"/>
+          </StackLayout>
+        </Grid>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,318 @@
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll.config
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\com.capsuletechnology.manhattan.apk
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\com.capsuletechnology.manhattan-Signed.apk
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXing.Net.Mobile.Forms.Android.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXing.Net.Mobile.Forms.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\zxing.portable.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXingNetMobile.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\bin\com.capsuletechnology.manhattan.apk
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\layout\tabbar.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\values\styles.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\background.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\cardapio.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\carrinho.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\coxinha.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\finalizar.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\logo.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\logout.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\meuspedidos.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\minhaconta.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\novoproduto.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\search.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\sobre.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\splash.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-hdpi\splash.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xhdpi\splash.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xxhdpi\splash.png
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\R.cs.flag
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\uploadflags.txt
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\mscorlib.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Core.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Xml.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Manhattan.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Manhattan.Droid.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll.config
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.pdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\com.capsuletechnology.manhattan.apk
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\com.capsuletechnology.manhattan-Signed.apk
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\FormsViewGroup.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Newtonsoft.Json.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Extensions.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Primitives.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXing.Net.Mobile.Core.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXing.Net.Mobile.Forms.Android.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXing.Net.Mobile.Forms.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\zxing.portable.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXingNetMobile.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.pdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\FormsViewGroup.pdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\FormsViewGroup.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Newtonsoft.Json.xml
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Extensions.xml
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Primitives.xml
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.xml
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.csprojResolveAssemblyReference.cache
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.dll
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.pdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\bin\com.capsuletechnology.manhattan.apk
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\icon.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\layout\tabbar.xml
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\layout\toolbar.xml
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\values\styles.xml
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\background.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\cardapio.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\carrinho.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\coxinha.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\finalizar.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\logo.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\logout.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\meuspedidos.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\minhaconta.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\novoproduto.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\search.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\sobre.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-hdpi\icon.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\splash.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-hdpi\splash.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xhdpi\splash.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xxhdpi\splash.png
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\R.cs.flag
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\uploadflags.txt
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Java.Interop.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Mono.Android.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Mono.CSharp.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\mscorlib.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Core.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Xml.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Manhattan.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Manhattan.Droid.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+G:\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll.config
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\com.capsuletechnology.manhattan.apk
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\com.capsuletechnology.manhattan-Signed.apk
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXing.Net.Mobile.Forms.Android.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXing.Net.Mobile.Forms.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\zxing.portable.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\ZXingNetMobile.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\bin\com.capsuletechnology.manhattan.apk
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\layout\tabbar.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\values\styles.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\background.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\cardapio.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\carrinho.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\coxinha.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\finalizar.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\logo.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\logout.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\meuspedidos.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\minhaconta.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\novoproduto.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\search.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\sobre.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\splash.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-hdpi\splash.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xhdpi\splash.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable-xxhdpi\splash.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\values\colors.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\res\drawable\excluir.png
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\R.cs.flag
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\uploadflags.txt
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\mscorlib.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Core.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Xml.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Manhattan.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Manhattan.Droid.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll.mdb

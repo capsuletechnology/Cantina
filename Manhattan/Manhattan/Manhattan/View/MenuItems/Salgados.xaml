@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		x:Class="Manhattan.View.MenuItems.Salgados"
+		Title="Salgados">
+  <ContentPage.Content>
+    <StackLayout>
+      <ListView x:Name="listViewSalgados" ItemTapped="OnItemTapped" SeparatorVisibility="Default" SeparatorColor="#939393">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <Grid>
+                <!--<Grid.RowDefinitions>
+                  <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>-->
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="5"/>
+                  <ColumnDefinition Width="*"/>
+                  <ColumnDefinition Width="Auto"/>
+                  <ColumnDefinition Width="5"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="{Binding nome}" Grid.Column="1" VerticalTextAlignment="Center"/>
+                <Label Text="{Binding preco, StringFormat='R$ {0:N}'}" Grid.Column="2" HorizontalOptions="End" VerticalTextAlignment="Center"/>
+              </Grid>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

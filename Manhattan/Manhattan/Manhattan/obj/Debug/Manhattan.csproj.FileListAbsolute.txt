@@ -1,0 +1,145 @@
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.dll.config
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\ZXing.Net.Mobile.Forms.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\zxing.portable.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\ZXingNetMobile.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.csproj.App.config
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.App.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Login.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Registrar.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MasterDetail.MainPage.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MasterDetail.MasterPage.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Menu.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MenuItems.Bebidas.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MenuItems.Doces.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MenuItems.Salgados.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Sobre.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Funcionario.InfoPedido.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Funcionario.NovoProduto.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Funcionario.Pedidos.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.Carrinho.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.InfoPedido.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.InfoProduto.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.MeusPedidos.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.MinhaConta.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.PedidoQR.xaml.g.cs
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.dll
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.pdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.csprojResolveAssemblyReference.cache
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.dll.mdb
+C:\Users\Kingdom\Desktop\backup 03.12\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.dll.mdb
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.dll.config
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.pdb
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Newtonsoft.Json.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Extensions.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Primitives.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Core.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Platform.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Xaml.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\ZXing.Net.Mobile.Core.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\ZXing.Net.Mobile.Forms.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\zxing.portable.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\ZXingNetMobile.dll
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Newtonsoft.Json.xml
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.xml
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Extensions.xml
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Primitives.xml
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Core.pdb
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Core.xml
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Platform.pdb
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Xaml.pdb
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Xaml.xml
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.csproj.App.config
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.csprojResolveAssemblyReference.cache
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.App.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Login.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Registrar.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MasterDetail.MainPage.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MasterDetail.MasterPage.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Menu.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MenuItems.Bebidas.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MenuItems.Doces.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MenuItems.Salgados.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Sobre.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Funcionario.InfoPedido.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Funcionario.NovoProduto.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Funcionario.Pedidos.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.Carrinho.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.InfoPedido.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.InfoProduto.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.MeusPedidos.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.MinhaConta.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.PedidoQR.xaml.g.cs
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.dll
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.pdb
+G:\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.dll.mdb
+G:\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.dll.config
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Mono.Android.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\ZXing.Net.Mobile.Forms.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\zxing.portable.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\ZXingNetMobile.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Mono.Android.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.csproj.App.config
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.App.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Login.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Registrar.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MasterDetail.MainPage.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MasterDetail.MasterPage.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Menu.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MenuItems.Bebidas.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MenuItems.Doces.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.MenuItems.Salgados.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Sobre.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Funcionario.InfoPedido.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Funcionario.NovoProduto.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Funcionario.Pedidos.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.Carrinho.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.InfoPedido.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.InfoProduto.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.MeusPedidos.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.MinhaConta.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.View.Cliente.PedidoQR.xaml.g.cs
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.dll
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.pdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\obj\Debug\Manhattan.dll.mdb
+C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan\bin\Debug\Manhattan.dll.mdb

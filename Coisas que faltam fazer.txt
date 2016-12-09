@@ -1,0 +1,19 @@
+﻿- Adicionar activityindicador?
+- Não deslogar ao sair do app. (Criar banco de dados interno do aplicativo)
+- A numeração dos pedidos é o mesmo para todos os usuários.
+- Na tela de info pedido aparecendo apenas o primeiro nome do usuário. (Colocar o nome completo)
+- Na tela de novo produto ao clicar em adicionar com os campos em branco eles ficam bloqueados.
+- Tela de novo produto se colocar todas informações, menos valores de preço e quantidade, o app 
+
+fecha.
+- Botão de procura nas telas de produto
+- Fazer a tela  Sobre
+
+
+Try catch se admin atualizar o produto e cliente tentar acessar o produto sem atualizar lista
+
+Arrumar o finalizado em info pedido (Colocar para carregar antes do init)
+
+Na tela de pedido do admin colocar o status do pedido com isVisible
+
+Arrumar mensagem caso o produto esteja esgotado no estoque

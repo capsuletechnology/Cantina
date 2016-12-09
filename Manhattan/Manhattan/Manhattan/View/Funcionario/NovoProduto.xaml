@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		x:Class="Manhattan.View.Funcionario.NovoProduto"
+    Padding="10">
+  <ContentPage.Content>
+    <ScrollView>
+    <StackLayout>
+      <Grid>
+        <Entry Grid.Row="0" Text="" Placeholder="Nome" x:Name="NomeEntry"/>
+        <Entry Grid.Row="1" Text="" Placeholder="Descrição" x:Name="DescricaoEntry"/>
+        <Entry Grid.Row="2" Text="" Placeholder="Tipo" x:Name="TipoEntry" TextChanged="TipoChanged"/>
+        <Entry Grid.Row="3" Text="" Placeholder="Preço" x:Name="PrecoEntry" Keyboard="Numeric" TextChanged="PrecoChanged"/>
+        <Entry Grid.Row="4" Text="" Placeholder="Quantidade em Estoque" x:Name="qtdEstoqueEntry" Keyboard="Numeric" TextChanged="UnidChanged"/>
+        <Button Grid.Row="5" x:Name="Botao" Text="" Style="{StaticResource StyleRedButton}" Clicked="BotaoClicked"/>
+        <Button Grid.Row="6" Text="Cancelar" Style="{StaticResource StyleBlueButton}" Clicked="CancelarClicked"/>
+      </Grid>
+    </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

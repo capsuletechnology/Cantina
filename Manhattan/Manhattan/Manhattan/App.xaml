@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manhattan.App">
+  <Application.Resources>
+
+    <!-- Application resource dictionary -->
+    <ResourceDictionary>
+      <Style x:Key="StyleBg" TargetType="ContentPage">
+        <Setter Property="BackgroundImage" Value="background.png"/>
+      </Style>
+      <Style x:Key="StyleRedButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#C0392B"/>
+        <Setter Property="TextColor" Value="White"/>
+      </Style>
+      <Style x:Key="StyleBlueButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#2c3e50"/>
+        <Setter Property="TextColor" Value="White"/>
+      </Style>
+      <Style x:Key="StyleEntry" TargetType="Entry">
+        <Setter Property="PlaceholderColor" Value="#999999"/>
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

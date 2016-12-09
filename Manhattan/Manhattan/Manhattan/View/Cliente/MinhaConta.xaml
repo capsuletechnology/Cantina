@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Manhattan.Behaviors;assembly=Manhattan"
+		x:Class="Manhattan.View.Cliente.MinhaConta"
+		Title="Minha Conta">
+  <ContentPage.Content>
+    <ScrollView>
+    <StackLayout>
+    <StackLayout BackgroundColor="#C0392B" VerticalOptions="Center">
+      <StackLayout Padding="60,0,0,0" VerticalOptions="Center">
+        <Label Text="" x:Name="UsuarioLabel" VerticalTextAlignment="Center" FontSize="18" TextColor="White"/>
+      </StackLayout>
+    </StackLayout>
+    <StackLayout Padding="10">
+      <Grid>
+        <Entry Grid.Row="0" Text="" x:Name="NomeEntry" Placeholder="Nome" IsEnabled="False" TextChanged="NameChanged"/>
+        <Entry Grid.Row="1" Text="" x:Name="SobrenomeEntry" Placeholder="Sobrenome" IsEnabled="False" TextChanged="NameChanged"/>
+        <Entry Grid.Row="2" Text="" x:Name="TelefoneEntry" Placeholder="(__) _____-_____" IsEnabled="False" TextChanged="CelChanged"/>
+        <Entry Grid.Row="3" Text="" x:Name="CPFEntry" Placeholder="CPF" IsEnabled="False" TextChanged="CpfChanged"/>
+
+        <Button Grid.Row="4" Text="ALTERAR" x:Name="AlterarButton" IsVisible="True" Clicked="AlterarClicked" Style="{StaticResource StyleRedButton}"/>
+        <Button Grid.Row="5" Text="SALVAR" x:Name="SalvarButton" IsVisible="False" Clicked="SalvarClicked" Style="{StaticResource StyleBlueButton}"/>
+        
+
+        <Button Grid.Row="4" Text="Alterar Senha" x:Name="AlterarSenhaButton" IsVisible="False" Clicked="AlterarSenhaClicked" Style="{StaticResource StyleRedButton}"/>
+        <Button Grid.Row="6" Text="SALVAR" x:Name="SalvarButtonSenha" IsVisible="False" Clicked="SalvarClicked" Style="{StaticResource StyleBlueButton}"/>
+        
+        <Entry Grid.Row="4" x:Name="SenhaEntry" Placeholder="Nova Senha" IsPassword="True" IsEnabled="false" IsVisible="False" TextChanged="PassChanged">
+          <Entry.Behaviors>
+            <local:RequiredValidatorBehavior x:Name="SenhaEntryValidator"/>
+          </Entry.Behaviors>
+        </Entry>
+        <Entry Grid.Row="5" x:Name="ConfirmarSenhaEntry" Placeholder="Confirmar Senha" IsPassword="true" IsEnabled="False" IsVisible="False" TextChanged="PassChanged">
+          <Entry.Behaviors>
+            <local:ComparisonBehavior x:Name="ConfirmarSenhaEntryBehavior" CompareToEntry="{Binding Source={x:Reference SenhaEntry}}" />
+          </Entry.Behaviors>
+        </Entry>
+      </Grid>
+    </StackLayout>
+    </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

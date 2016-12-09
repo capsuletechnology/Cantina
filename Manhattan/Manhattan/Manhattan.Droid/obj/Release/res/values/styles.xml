@@ -1,0 +1,17 @@
+<resources><style name="MainTheme" parent="MainTheme.Base"><!--If you are using MasterDetailPage you will want to set these, else you can leave them out--><!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>--></style><style name="SplashTheme" parent="MainTheme.Base"><item name="android:windowFullscreen">true</item><item name="android:windowBackground">@drawable/splash</item><!--<item name="android:actionBarSize">0dp</item>--></style><!--<style name="MainTheme.TabStyle" parent="Widget.Design.TabLayout">
+    <item name="tabTextAppearance">@style/AppTheme.TextStyle</item>
+    <item name="tabTextColor">#C0392B</item>
+    <item name="tabSelectedTextColor">@color/white</item>
+    <item name="tabIndicatorColor">#C0392B</item>
+    <item name="tabIndicatorHeight">3dp</item>
+    <item name="tabBackground">@android:color/white</item>
+    <item name="android:background">?attr/colorPrimary</item>
+  </style>
+  <style name="AppTheme.TextStyle" parent="TextAppearance.Design.Tab">
+    <item name="android:textSize">14sp</item>
+    <item name="textAllCaps">true</item>
+  </style>--><!-- Base theme applied no matter what API --><style name="MainTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar"><!--If you are using revision 22.1 please use just windowNoTitle. Without android:--><item name="windowNoTitle">true</item><!--We will be using the toolbar so no need to show ActionBar--><item name="windowActionBar">false</item><!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette --><!-- colorPrimary is used for the default action bar background --><item name="colorPrimary">#C0392B<!--#2196F3--></item><!-- colorPrimaryDark is used for the status bar --><item name="colorPrimaryDark">#9B2D22<!--#1976D2--></item><!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets --><item name="colorAccent">#939393<!--#FF4081--></item><!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight and colorSwitchThumbNormal. --><item name="windowActionModeOverlay">true</item><item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item></style><style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog"><item name="colorAccent">#9B2D22<!--#FF4081--></item></style></resources>
