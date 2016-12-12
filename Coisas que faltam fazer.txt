@@ -1,25 +1,18 @@
-﻿- Adicionar activityindicador?
+- Adicionar activityindicador?
 - Não deslogar ao sair do app. (Criar banco de dados interno do aplicativo)
-- A numeração dos pedidos é o mesmo para todos os usuários.
-- Na tela de info pedido aparecendo apenas o primeiro nome do usuário. (Colocar o nome completo)
-- Na tela de novo produto ao clicar em adicionar com os campos em branco eles ficam bloqueados.
-- Tela de novo produto se colocar todas informações, menos valores de preço e quantidade, o app fecha.
+DONE - A numeração dos pedidos é o mesmo para todos os usuários.
+DONE - Na tela de info pedido aparecendo apenas o primeiro nome do usuário. (Colocar o nome completo)
+DONE - Na tela de novo produto ao clicar em adicionar com os campos em branco eles ficam bloqueados.
+DONE - Tela de novo produto se colocar todas informações, menos valores de preço e quantidade, o app fecha.
 - Botão de procura nas telas de produto
-- Fazer a tela  Sobre
-
-
-Try catch se admin atualizar o produto e cliente tentar acessar o produto sem atualizar lista
-
-Arrumar o finalizado em info pedido (Colocar para carregar antes do init)
-
-Na tela de pedido do admin colocar o status do pedido com isVisible
-
-Arrumar mensagem caso o produto esteja esgotado no estoque
-
-pull to refresh na tela de pedidos
-
-Na tela de pedidos trocar o botão X por  - , onde diminui a quantidade de produtos de 1 em 1, e quando chegar a 0 o produto ser excluido
-
-Tela de novo produto trocar a entry de tipo (Bebida, Doce, Salgado) ao inves de digitar para uma caixa para se escolher
-
-Tela de novo produto trocar a entry de quantidade para uma label com botões (parecido com a tela de info produto)
+- Fazer a tela Sobre
+DONE - Try catch se admin atualizar o produto e cliente tentar acessar o produto sem atualizar lista
+DONE - Arrumar o finalizado em info pedido (Colocar para carregar antes do init)
+DOING (EVERTÃO) - Na tela de pedido do admin colocar o status do pedido com isVisible
+DONE - Arrumar mensagem caso o produto esteja esgotado no estoque
+DONE - Pull to refresh na tela de pedidos
+DONE - Na tela de pedidos trocar o botão X por  - , onde diminui a quantidade de produtos de 1 em 1, e quando chegar a 0 o produto ser  excluido
+DONE - Tela de novo produto trocar a entry de tipo (Bebida, Doce, Salgado) ao inves de digitar para uma caixa para se escolher
+DONE - Tela de novo produto trocar a entry de quantidade para uma label com botões (parecido com a tela de info produto)
+DONE - Esqueci a senha/usuário, recuperar por CPF ?
+DONE - Verificar o modo que está pegando data
