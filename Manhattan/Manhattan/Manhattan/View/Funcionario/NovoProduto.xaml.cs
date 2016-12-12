@@ -13,8 +13,7 @@ namespace Manhattan.View.Funcionario
     {
         bool isUpdate = false;
         bool Active = true;
-        bool bloqueado = true;
-        bool isBloqueado = false;
+        int contador = 0;
 
         Model.Produto produto = new Model.Produto();
 
@@ -40,16 +39,19 @@ namespace Manhattan.View.Funcionario
 
             NomeEntry.Text = produto.nome;
             DescricaoEntry.Text = produto.descricao;
-            TipoEntry.Text = produto.tipo;
             PrecoEntry.Text = Convert.ToString(produto.preco);
-            qtdEstoqueEntry.Text = Convert.ToString(produto.qtdestoque);
-
-            isBloqueado = true;
+            QuantidadeLabel.Text = Convert.ToString(produto.qtdestoque);
         }
 
         protected override void OnAppearing()
         {
             Active = true;
+
+            NomeEntry.IsEnabled = true;
+            DescricaoEntry.IsEnabled = true;
+            TipoPicker.IsEnabled = true;
+            PrecoEntry.IsEnabled = true;
+            QuantidadeLabel.IsEnabled = true;
         }
 
         public void TipoChanged(object sender, TextChangedEventArgs e)
@@ -101,7 +103,22 @@ namespace Manhattan.View.Funcionario
             }
         }
 
-        public void BotaoClicked(object sender, EventArgs e)
+        public void DiminuirClicked(object sender, EventArgs e)
+        {
+            if (!QuantidadeLabel.Text.Equals("0"))
+            {
+                contador--;
+                QuantidadeLabel.Text = Convert.ToString(contador);
+            }
+        }
+
+        public void AumentarClicked(object sender, EventArgs e)
+        {
+            contador++;
+            QuantidadeLabel.Text = Convert.ToString(contador);
+        }
+
+        public async void BotaoClicked(object sender, EventArgs e)
         {
             if (Active)
             {
@@ -110,44 +127,72 @@ namespace Manhattan.View.Funcionario
 
                 NomeEntry.IsEnabled = false;
                 DescricaoEntry.IsEnabled = false;
-                TipoEntry.IsEnabled = false;
+                TipoPicker.IsEnabled = false;
                 PrecoEntry.IsEnabled = false;
-                qtdEstoqueEntry.IsEnabled = false;
+                QuantidadeLabel.IsEnabled = false;
 
-                if ((string.IsNullOrEmpty(NomeEntry.Text)) || (string.IsNullOrEmpty(DescricaoEntry.Text)) || (string.IsNullOrEmpty(TipoEntry.Text)) || (string.IsNullOrEmpty(PrecoEntry.Text)) || (string.IsNullOrEmpty(qtdEstoqueEntry.Text)))
+                var selectedValue = "";
+
+                try { selectedValue = TipoPicker.Items[TipoPicker.SelectedIndex]; }
+                catch (Exception)
                 {
-                    DisplayAlert("", "Não podem haver campos vazios!", "OK");
+                    await DisplayAlert("", "Não podem haver campos vazios!", "OK");
                     Active = true;
                     Botao.IsEnabled = true;
+
+                    NomeEntry.IsEnabled = true;
+                    DescricaoEntry.IsEnabled = true;
+                    TipoPicker.IsEnabled = true;
+                    PrecoEntry.IsEnabled = true;
+                    QuantidadeLabel.IsEnabled = true;
+                    return;
+                }
+
+
+
+                if ((string.IsNullOrEmpty(NomeEntry.Text)) || (string.IsNullOrEmpty(DescricaoEntry.Text)) || (string.IsNullOrEmpty(selectedValue)) 
+                    || (string.IsNullOrEmpty(PrecoEntry.Text)) || (string.IsNullOrEmpty(QuantidadeLabel.Text)) || PrecoEntry.Text.Equals("R$ ") 
+                    || (string.IsNullOrWhiteSpace(NomeEntry.Text)) || (string.IsNullOrWhiteSpace(DescricaoEntry.Text)))
+                {
+                    await DisplayAlert("", "Não podem haver campos vazios!", "OK");
+                    Active = true;
+                    Botao.IsEnabled = true;
+
+                    NomeEntry.IsEnabled = true;
+                    DescricaoEntry.IsEnabled = true;
+                    TipoPicker.IsEnabled = true;
+                    PrecoEntry.IsEnabled = true;
+                    QuantidadeLabel.IsEnabled = true;
                 }
                 else
                 {
-                    produto.nome = NomeEntry.Text;
-                    produto.descricao = DescricaoEntry.Text;
+                    string nomeText = NomeEntry.Text;
+                    nomeText = nomeText.Trim(new char[] { ' ' });
+                    produto.nome = nomeText;
 
-                    string tipoText = TipoEntry.Text;
-                    tipoText = tipoText.TrimStart(new char[] { 'T', 'i', 'p', 'o', ':', ' ' });
-                    produto.tipo = tipoText;                                     
+                    string descricaoText = DescricaoEntry.Text;
+                    descricaoText = descricaoText.Trim(new char[] { ' ' });
+                    produto.descricao = descricaoText;
+
+                    produto.tipo = selectedValue;                                   
 
                     string precoText = PrecoEntry.Text;
                     precoText = precoText.TrimStart(new char[] { 'R', '$', ' ' });
-                    produto.preco = Convert.ToDouble(precoText);                    
-
-                    string qtdText = qtdEstoqueEntry.Text;
-                    qtdText = qtdText.TrimStart(new char[] { 'U', 'n', 'i', 'd', 'a', 'd', 'e', 's', ':', ' ' });
-                    produto.qtdestoque = Convert.ToInt32(qtdText);                    
+                    produto.preco = Convert.ToDouble(precoText); 
+                                       
+                    produto.qtdestoque = Convert.ToInt32(QuantidadeLabel.Text);                    
 
                     if (isUpdate)
                     {
                         Api.Api.UpdateProduto(produto);
-                        DisplayAlert("Editar Produto", "Produto " + produto.nome + " atualizado.", "OK");
-                        Navigation.PopAsync();
+                        await DisplayAlert("Editar Produto", "Produto " + produto.nome + " atualizado.", "OK");
+                        await Navigation.PopAsync();
                     }
                     else
                     {
                         Api.Api.InsertProduto(produto);
-                        DisplayAlert("Adicionar Produto", "Produto " + produto.nome + " adicionado.", "OK");
-                        Navigation.PopAsync();
+                        await DisplayAlert("Adicionar Produto", "Produto " + produto.nome + " adicionado.", "OK");
+                        await Navigation.PopAsync();
                     }
                 }
             }            

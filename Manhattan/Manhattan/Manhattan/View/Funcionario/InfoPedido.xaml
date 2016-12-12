@@ -2,19 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 		x:Class="Manhattan.View.Funcionario.InfoPedido"
-		Title="Informação do Pedido"
-    Padding="10">
+		Title="Informação do Pedido">
   <ContentPage.Content>
       <StackLayout>
+      <StackLayout Orientation="Horizontal" Padding="19,12,0,13" BackgroundColor="#C0392B">
+        <Image Source="back.png" x:Name="Voltar" WidthRequest="17"/>
+        <StackLayout Padding="15,3,0,0">
+        <Label Text="Info Pedido" FontSize="21" VerticalOptions="CenterAndExpand" TextColor="White"/>
+        </StackLayout>
+      </StackLayout>
+      <StackLayout Padding="10">         
       <StackLayout Orientation="Horizontal">
-        <Label Text="{Binding Codigo, StringFormat='Pedido #{0}'}" FontAttributes="Bold"/>
-        <Label Text="-"/>
-        <Label Text="{Binding Data}"/>
+        <Label Text="{Binding Codigo, StringFormat='Código {0}'}" FontAttributes="Bold"/>
+        <Label Text="-" FontAttributes="Bold"/>
+        <Label Text="{Binding Data}" FontAttributes="Bold"/>
       </StackLayout>
       <StackLayout Orientation="Horizontal">
-        <Label Text="{Binding Cliente.nome}"/>
-        <Label Text="-"/>
-        <Label Text="{Binding Cliente.cpf}"/>
+        <Label Text="{Binding Cliente.nome}" FontAttributes="Bold"/>
+        <Label Text="{Binding Cliente.sobrenome}" FontAttributes="Bold"/>
+        <Label Text="-" FontAttributes="Bold"/>
+        <Label Text="{Binding Cliente.cpf}" FontAttributes="Bold"/>
       </StackLayout>
       <StackLayout Orientation="Horizontal">
         <Label Text="Total:" FontAttributes="Bold"/>
@@ -22,10 +29,10 @@
       </StackLayout>
       <StackLayout Orientation="Horizontal">
         <Label Text="Status:" FontAttributes="Bold"/>
-        <Label x:Name="AguardandoLabel" Text="Aguardando Retirada" TextColor="#F44336"/>
-        <Label x:Name="FinalizadoLabel" Text="Finalizado" TextColor="#00E676"/>
+        <Label x:Name="AguardandoLabel" Text="Aguardando Retirada" FontAttributes="Bold" IsVisible="False" TextColor="#F44336"/>
+        <Label x:Name="FinalizadoLabel" Text="Finalizado" FontAttributes="Bold" IsVisible="False" TextColor="#00E676"/>
       </StackLayout>
-      <Button x:Name="EscanearButton" Text="ESCANEAR" Clicked="ScanClicked" Style="{StaticResource StyleRedButton}"/>
+      <Button x:Name="EscanearButton" Text="ESCANEAR" IsVisible="False" Clicked="ScanClicked" Style="{StaticResource StyleRedButton}"/>
       <Label Text="Itens:" FontSize="Large" FontAttributes="Bold"/>
       <ListView x:Name="listViewPedidos" ItemTapped="OnItemTapped">
         <ListView.ItemTemplate>
@@ -52,6 +59,7 @@
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
+      </StackLayout>
     </StackLayout>  
   </ContentPage.Content>
 </ContentPage>

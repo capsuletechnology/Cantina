@@ -23,6 +23,9 @@ namespace Manhattan.View {
         private global::Xamarin.Forms.Entry SenhaEntry;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label RecuperarLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button LoginButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -33,6 +36,7 @@ namespace Manhattan.View {
             this.LoadFromXaml(typeof(Login));
             UsuarioEntry = this.FindByName<global::Xamarin.Forms.Entry>("UsuarioEntry");
             SenhaEntry = this.FindByName<global::Xamarin.Forms.Entry>("SenhaEntry");
+            RecuperarLabel = this.FindByName<global::Xamarin.Forms.Label>("RecuperarLabel");
             LoginButton = this.FindByName<global::Xamarin.Forms.Button>("LoginButton");
             RegistrarButton = this.FindByName<global::Xamarin.Forms.Button>("RegistrarButton");
         }

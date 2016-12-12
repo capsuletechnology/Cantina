@@ -10,8 +10,9 @@ using System.Threading.Tasks;
 
 namespace Manhattan.Api
 {
+
     public static class Api
-    {
+    {       
         #region GET
         public static async Task<List<Model.Cliente>> GetClientes()
         {
@@ -109,11 +110,11 @@ namespace Manhattan.Api
             var lista = new List<Model.Pedido>();
 
             var _pedido = new Model.Pedido
-            {                
+            {
                 cliente = cliente,
                 valortotal = valorTotal,
                 qrcode = pedido.RandomQR(),
-                data = DateTime.Now.AddMonths(0).ToString("dd/MM/yyyy", CultureInfo.InvariantCulture),
+                data = DateTime.UtcNow.ToString("dd/MM/yyyy"),
                 isfinalizado = false
             };            
 

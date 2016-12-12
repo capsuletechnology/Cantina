@@ -29,9 +29,6 @@ namespace Manhattan.View.Cliente {
         private global::Xamarin.Forms.Entry TelefoneEntry;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry CPFEntry;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button AlterarButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -62,7 +59,6 @@ namespace Manhattan.View.Cliente {
             NomeEntry = this.FindByName<global::Xamarin.Forms.Entry>("NomeEntry");
             SobrenomeEntry = this.FindByName<global::Xamarin.Forms.Entry>("SobrenomeEntry");
             TelefoneEntry = this.FindByName<global::Xamarin.Forms.Entry>("TelefoneEntry");
-            CPFEntry = this.FindByName<global::Xamarin.Forms.Entry>("CPFEntry");
             AlterarButton = this.FindByName<global::Xamarin.Forms.Button>("AlterarButton");
             SalvarButton = this.FindByName<global::Xamarin.Forms.Button>("SalvarButton");
             AlterarSenhaButton = this.FindByName<global::Xamarin.Forms.Button>("AlterarSenhaButton");

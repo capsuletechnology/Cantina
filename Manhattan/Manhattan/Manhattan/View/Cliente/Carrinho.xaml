@@ -24,10 +24,10 @@
                     <ColumnDefinition Width="35"/>
                     <ColumnDefinition Width="Auto"/>
                   </Grid.ColumnDefinitions>
-                  <Label Text="{Binding produto.nome}" VerticalTextAlignment="Center" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2"/>
-                  <Label Text="{Binding qtdrequisitada, StringFormat='{0} Unidade(s)'}" Grid.Column="2" HorizontalOptions="End" Grid.Row="0"/>
-                  <Label Text="{Binding valortotal, StringFormat='R$ {0:N}'}" Grid.Column="2" HorizontalOptions="End" Grid.Row="1"/>
-                  <Button BorderRadius="6" Image="excluir.png" Clicked="XClicked" Grid.Column="3" Grid.Row="0" Grid.RowSpan="2" CommandParameter="{Binding .}" Style="{StaticResource StyleRedButton}"/>
+                  <Label Text="{Binding produto.nome}" VerticalTextAlignment="Center" FontAttributes="Bold" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2"/>
+                  <Label Text="{Binding qtdrequisitada, StringFormat='{0} Unidade(s)'}" FontAttributes="Bold" Grid.Column="2" HorizontalOptions="End" Grid.Row="0"/>
+                  <Label Text="{Binding valortotal, StringFormat='R$ {0:N}'}" FontAttributes="Bold" Grid.Column="2" HorizontalOptions="End" Grid.Row="1"/>
+                  <Button BorderRadius="6" Image="minus.png" Clicked="XClicked" Grid.Column="3" Grid.Row="0" Grid.RowSpan="2" CommandParameter="{Binding .}" Style="{StaticResource StyleRedButton}"/>
                 </Grid>
             </ViewCell>
           </DataTemplate>

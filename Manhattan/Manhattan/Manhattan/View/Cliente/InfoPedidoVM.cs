@@ -11,6 +11,9 @@ namespace Manhattan.View.Cliente
         private int? codigo;
         public int? Codigo { get { return codigo; } set { codigo = value; Notify("Codigo"); } }
 
+        private string numeroPedido;
+        public string NumeroPedido { get { return numeroPedido; } set { numeroPedido = value; Notify("NumeroPedido"); } }
+
         private string data;
         public string Data { get { return data; } set { data = value; Notify("Data"); } }
 
@@ -18,24 +21,19 @@ namespace Manhattan.View.Cliente
         public double ValorTotal { get { return valortotal; } set { valortotal = value; Notify("ValorTotal"); } }
 
         private bool isfinalizado;
-
-        public bool IsFinalizado
-        {
-            get { return isfinalizado; }
-            set { isfinalizado = value; Notify("IsFinalizado"); }
-        }
-
+        public bool IsFinalizado { get { return isfinalizado; } set { isfinalizado = value; Notify("IsFinalizado"); } }
 
         private Model.Cliente cliente;
         public Model.Cliente Cliente { get { return cliente; } set { cliente = value; Notify("Cliente"); } }
 
-        public InfoPedidoVM(Model.Pedido pedido)
+        public InfoPedidoVM(Model.PedidoVerificar pedido)
         {
             Codigo = pedido.codigo;
             Data = pedido.data;
             ValorTotal = pedido.valortotal;
             Cliente = pedido.cliente;
             IsFinalizado = pedido.isfinalizado;
+            NumeroPedido = pedido.numeroPedido;
         }
     }
 }

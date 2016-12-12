@@ -24,23 +24,43 @@ namespace Manhattan.View.Funcionario
 
         public InfoPedido(Model.Pedido pedido)
         {
-            InitializeComponent();
-
-            listViewPedidos.SelectedItem = null;
-
+            InitializeComponent();          
             this.BindingContext = new InfoPedidoVM(pedido);
-
-            _listaPedidoProduto = new ObservableCollection<Model.PedidoProduto>();  
-
             _pedido = pedido;
 
+            var tapVoltar = new TapGestureRecognizer();
+            tapVoltar.Tapped += async (s, e) =>
+            {
+                if (Active)
+                {
+                    Active = false;
+
+                    await Task.Delay(100);
+
+                    int a = 1;
+                    Application.Current.MainPage = new MasterDetail.MainPage(a);
+                }
+            };
+            Voltar.GestureRecognizers.Add(tapVoltar);
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            int reload = 1;
+            Application.Current.MainPage = new MasterDetail.MainPage(reload);
+            return true;
+        }
+
+        protected override void OnAppearing()
+        {
+            Active = true;
+            listViewPedidos.SelectedItem = null;
+            Verificar();
             Pesquisar();
         }
 
-        protected override async void OnAppearing()
+        async void Verificar()
         {
-            Active = true;
-
             var verificar = await Api.Api.GetPedidos();
 
             for (int i = 0; i < verificar.Count; i++)
@@ -49,9 +69,9 @@ namespace Manhattan.View.Funcionario
                 {
                     if (verificar[i].isfinalizado)
                     {
-                        FinalizadoLabel.IsVisible = true;
                         AguardandoLabel.IsVisible = false;
                         EscanearButton.IsVisible = false;
+                        FinalizadoLabel.IsVisible = true;
                     }
                     else
                     {
@@ -65,6 +85,7 @@ namespace Manhattan.View.Funcionario
 
         public async void Pesquisar()
         {
+            _listaPedidoProduto = new ObservableCollection<Model.PedidoProduto>();
             var _lista = await Api.Api.GetPedidoProduto();
 
             for (int i = 0; i < _lista.Count; i++)
@@ -110,28 +131,29 @@ namespace Manhattan.View.Funcionario
                     {
                         Answer = await DisplayAlert("Código Escaneado", "O Código foi confirmado: " + result.Text +
                                        " Deseja finalizar o pedido?", "Sim", "Não");
+
+                        if (Answer)
+                        {
+                            _pedido.isfinalizado = true;
+                            Api.Api.UpdatePedido(_pedido);
+                            await DisplayAlert("Finalizar Pedido", "Pedido Finalizado.", "OK");
+
+                            Verificar();
+
+                            Active = true;
+                        }
                     }
                     else
                     {
                         await DisplayAlert("Código Escaneado", "Código Inválido!", "OK");
                     }
-
-                    if (Answer)
-                    {
-                        _pedido.isfinalizado = true;
-                        Api.Api.UpdatePedido(_pedido);
-                        await DisplayAlert("Finalizar Pedido", "Pedido Finalizado.", "OK");
-                        Navigation.InsertPageBefore(new InfoPedido(_pedido), this);
-                        await Navigation.PopAsync();
-                        Navigation.RemovePage(this);
-                        Active = true;
-                    }
                 }
                 catch (Exception)
                 {
                     Active = true;
+                    Verificar();
                 }
-            }            
+            }
         }
     }
 }

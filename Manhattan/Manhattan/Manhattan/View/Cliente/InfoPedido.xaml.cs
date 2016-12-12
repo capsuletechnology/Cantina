@@ -11,34 +11,30 @@ namespace Manhattan.View.Cliente
 {
     public partial class InfoPedido : ContentPage
     {
-        Model.Pedido _pedido = new Model.Pedido();
+        Model.PedidoVerificar _pedido = new Model.PedidoVerificar();
 
         bool Active = true;
 
         ObservableCollection<Model.PedidoProduto> _listaPedidoProduto;
         public ObservableCollection<Model.PedidoProduto> _ListaPedidoProduto { get { return _listaPedidoProduto; } set { _listaPedidoProduto = value; } }
 
-        public InfoPedido(Model.Pedido pedido)
-        {
+        public InfoPedido(Model.PedidoVerificar pedido)
+        {          
             InitializeComponent();
-
-            listViewPedidos.SelectedItem = null;
-
             this.BindingContext = new InfoPedidoVM(pedido);
+            _pedido = pedido;            
+        }
 
-            _listaPedidoProduto = new ObservableCollection<Model.PedidoProduto>();        
-
-            listViewPedidos.ItemsSource = _ListaPedidoProduto;
-
-            _pedido = pedido;
-
+        protected override void OnAppearing()
+        {
+            Active = true;
+            listViewPedidos.SelectedItem = null;
+            Verificar();
             Pesquisar();
         }
 
-        protected override async void OnAppearing()
+        async void Verificar()
         {
-            Active = true;
-
             var verificar = await Api.Api.GetPedidos();
 
             for (int i = 0; i < verificar.Count; i++)
@@ -57,13 +53,14 @@ namespace Manhattan.View.Cliente
                         AguardandoLabel.IsVisible = true;
                         QRCodeButton.IsVisible = true;
                     }
-                }                
-            }                    
+                }
+            }
         }
-
 
         public async void Pesquisar()
         {
+            _listaPedidoProduto = new ObservableCollection<Model.PedidoProduto>();
+
             var _lista = await Api.Api.GetPedidoProduto();
 
             for (int i = 0; i < _lista.Count; i++)

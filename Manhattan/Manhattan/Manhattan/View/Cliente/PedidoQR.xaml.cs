@@ -13,7 +13,7 @@ namespace Manhattan.View.Cliente
     {
         ZXingBarcodeImageView barcode;
 
-        public PedidoQR(Model.Cliente cliente, Model.Pedido pedido)
+        public PedidoQR(Model.Cliente cliente, Model.PedidoVerificar pedido)
         {
             InitializeComponent();
 

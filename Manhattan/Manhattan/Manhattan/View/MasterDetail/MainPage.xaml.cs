@@ -16,6 +16,26 @@ namespace Manhattan.View.MasterDetail
             masterPage.ListView.ItemSelected += OnItemSelected;
         }
 
+        public MainPage(int reload)
+        {
+            InitializeComponent();
+            masterPage.ListView.ItemSelected += OnItemSelected;
+
+            Model.MasterPageItem masterPageItem = new Model.MasterPageItem();
+
+            masterPageItem.Title = "Pedidos";
+            masterPageItem.IconSource = "meuspedidos.png";
+            masterPageItem.TargetType = typeof(Funcionario.Pedidos);
+
+            var item = masterPageItem;
+            if (item != null)
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+                masterPage.ListView.SelectedItem = null;
+                IsPresented = false;
+            }
+        }
+
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as Model.MasterPageItem;

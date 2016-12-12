@@ -18,6 +18,11 @@ namespace Manhattan.View.Cliente
         {
             InitializeComponent();
 
+            var ordenarLista = App._GlobalPedidoProduto.OrderBy(x => x.codigo).ToList();
+            App._GlobalPedidoProduto.Clear();
+
+            for (int i = 0; i < ordenarLista.Count; i++) { App._GlobalPedidoProduto.Add(ordenarLista[i]); }
+
             listViewCarrinho.ItemsSource = App._GlobalPedidoProduto;
         }
 
@@ -32,52 +37,37 @@ namespace Manhattan.View.Cliente
             Active = true;
         }
 
-        public async void OnItemTapped(object sender, ItemTappedEventArgs e)
+        public void OnItemTapped(object sender, ItemTappedEventArgs e)
         {
-            if (Active)
-            {
-                Active = false;
-
-                var produtoClicado = (Model.ListaPedidoProduto)e.Item;
-
-                try
-                {
-                    var action = await DisplayActionSheet(produtoClicado.produto.nome, "Cancelar", null, "Excluir");
-
-                    if (action != null)
-                    {
-                        if (action.Equals("Excluir"))
-                        {
-                            bool answer = await DisplayAlert(produtoClicado.produto.nome, "Deseja excluir este produto?", "Sim", "Cancelar");
-                            if (answer)
-                            {
-                                App._GlobalPedidoProduto.Remove(produtoClicado);
-
-                                Active = true;
-                            }
-                            else
-                            {
-                                Active = true;
-                            }
-                        }
-                    }
-                }
-
-                catch (Exception)
-                {
-                    Active = true;
-                }
-
-                listViewCarrinho.SelectedItem = null;
-                Active = true;
-            }            
+            listViewCarrinho.SelectedItem = null;
         }
 
         public void XClicked(object sender, EventArgs e)
         {
             var mi = (((Button)sender).CommandParameter);
-            //var produto = (Model.ListaPedidoProduto)mi;
-            App._GlobalPedidoProduto.Remove((Model.ListaPedidoProduto)mi);
+            var produto = (Model.ListaPedidoProduto)mi;
+
+            if (produto.qtdrequisitada > 1)
+            {
+                App._GlobalPedidoProduto.Remove(produto);
+                produto.qtdrequisitada = produto.qtdrequisitada - 1;
+                produto.valortotal = produto.qtdrequisitada * produto.produto.preco;
+                App._GlobalPedidoProduto.Add(produto);
+
+                var ordenarLista = App._GlobalPedidoProduto.OrderBy(x => x.codigo).ToList();
+                App._GlobalPedidoProduto.Clear();
+
+                for (int i = 0; i < ordenarLista.Count; i++) { App._GlobalPedidoProduto.Add(ordenarLista[i]); }
+            }
+            else
+            {
+                App._GlobalPedidoProduto.Remove(produto);
+
+                var ordenarLista = App._GlobalPedidoProduto.OrderBy(x => x.codigo).ToList();
+                App._GlobalPedidoProduto.Clear();
+
+                for (int i = 0; i < ordenarLista.Count; i++) { App._GlobalPedidoProduto.Add(ordenarLista[i]); }
+            }
         }
 
         public async void FinalizarClicked(object sender, EventArgs e)

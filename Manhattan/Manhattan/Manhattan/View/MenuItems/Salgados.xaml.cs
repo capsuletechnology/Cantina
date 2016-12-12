@@ -38,73 +38,89 @@ namespace Manhattan.View.MenuItems
             Active = true;
         }
 
-        public async void OnItemTapped(object sender, ItemTappedEventArgs e)
+        public async void onItemTapped(object sender, ItemTappedEventArgs e)
         {
+            listViewSalgados.SelectedItem = null;
+
+            var produtoClicado = (Model.Produto)e.Item;
+
             if (Active)
             {
                 Active = false;
+
                 if (App.session.isadmin)
                 {
-                    var produtoClicado = (Model.Produto)e.Item;
+                    var action = await DisplayActionSheet(produtoClicado.nome, "Cancelar", null, "Editar", "Excluir");
 
-                    try
+                    if (action != null)
                     {
-                        var action = await DisplayActionSheet(produtoClicado.nome, "Cancelar", null, "Editar", "Excluir");
-
-                        if (action != null)
+                        if (action.Equals("Editar"))
                         {
-                            if (action.Equals("Editar"))
+                            await Navigation.PushAsync(new Funcionario.NovoProduto(produtoClicado));
+                        }
+
+                        if (action.Equals("Excluir"))
+                        {
+                            bool answer = await DisplayAlert(produtoClicado.nome, "Deseja excluir este produto?", "Sim", "Cancelar");
+                            if (answer)
                             {
-                                //var mi = ((MenuItem)sender);
-                                bool answer = await DisplayAlert(produtoClicado.nome, "Deseja alterar as informações deste produto?", "Sim", "Cancelar");
-                                if (answer)
-                                {
-                                    await Navigation.PushAsync(new Funcionario.NovoProduto(produtoClicado));
-                                }
+                                Api.Api.DeleteProduto(produtoClicado);
+
+                                ListaSalgados.Clear();
+                                Pesquisar();
+
+                                Active = true;
                             }
-
-                            if (action.Equals("Excluir"))
+                            else
                             {
-                                bool answer = await DisplayAlert(produtoClicado.nome, "Deseja excluir este produto?", "Sim", "Cancelar");
-                                if (answer)
-                                {
-                                    Api.Api.DeleteProduto(produtoClicado);
-
-                                    ListaSalgados.Clear();
-                                    Pesquisar();
-                                    Active = true;
-                                }
-                                else
-                                {
-                                    Active = true;
-                                }
+                                Active = true;
                             }
                         }
                     }
-
-                    catch (Exception)
-                    {
-                        Active = true;
-                    }
-
-                    listViewSalgados.SelectedItem = null;
                     Active = true;
                 }
+
                 else
                 {
-                    try
+                    Model.Produto verificarProduto = new Model.Produto();
+
+                    bool Existe = false;
+
+                    var verificar = await Api.Api.GetProdutos();
+
+                    for (int i = 0; i < verificar.Count; i++)
                     {
-                        var produtoClicado = (Model.Produto)e.Item;
-                        await Navigation.PushAsync(new Cliente.InfoProduto(produtoClicado));
-                        listViewSalgados.SelectedItem = null;
-                    }
-                    catch (Exception)
-                    {
-                        await DisplayAlert(null, "Ocorreu um erro. Tente novamente.", "OK");
+                        if (verificar[i].codigo.Equals(produtoClicado.codigo))
+                        {
+                            Existe = true;
+                            verificarProduto = verificar[i];
+                        }
                     }
 
+                    if (Existe)
+                    {
+                        if (verificarProduto.nome.Equals(produtoClicado.nome) && verificarProduto.descricao.Equals(produtoClicado.descricao)
+                            && verificarProduto.tipo.Equals(produtoClicado.tipo) && verificarProduto.preco.Equals(produtoClicado.preco)
+                            && verificarProduto.qtdestoque.Equals(produtoClicado.qtdestoque))
+                        {
+                            await Navigation.PushAsync(new Cliente.InfoProduto(produtoClicado));
+                            listViewSalgados.SelectedItem = null;
+                        }
+                        else
+                        {
+                            await DisplayAlert(null, "O Funcionário atualizou o produto.\nTente novamente.", "OK");
+                            OnAppearing();
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        await DisplayAlert(null, "O Funcionário atualizou o produto.\nTente novamente.", "OK");
+                        OnAppearing();
+                        return;
+                    }
                 }
-            }            
+            }
         }
 
         public async void Pesquisar()
@@ -113,7 +129,7 @@ namespace Manhattan.View.MenuItems
 
             listViewSalgados.IsRefreshing = true;
 
-            await Task.Delay(500);
+            await Task.Delay(200);
 
             salgados = await Api.Api.GetProdutos();
 

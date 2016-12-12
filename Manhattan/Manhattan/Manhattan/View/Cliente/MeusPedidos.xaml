@@ -7,7 +7,7 @@
     <ToolbarItem Icon="search.png"/>
   </ContentPage.ToolbarItems>
   <ContentPage.Content>
-    <ListView x:Name="listViewMeusPedidos" ItemTapped="OnItemTapped" SeparatorVisibility="Default" SeparatorColor="#939393">
+    <ListView x:Name="listViewMeusPedidos" Refreshing="OnRefresh" IsPullToRefreshEnabled="True" ItemTapped="onItemTapped" SeparatorVisibility="Default" SeparatorColor="#939393">
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
@@ -21,11 +21,13 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="5"/>
-              </Grid.ColumnDefinitions>
-              <Label Text="{Binding codigo, StringFormat='Pedido #{0}'}" FontAttributes="Bold" Grid.Column="1" Grid.Row="0"/>
+              </Grid.ColumnDefinitions>              
+              <Label Text="{Binding numeroPedido, StringFormat='Pedido #{0}'}" FontAttributes="Bold" Grid.Column="1" Grid.Row="0"/>
               <Label Text="{Binding data}" Grid.Column="1" Grid.Row="1"/>
-              <Label Text="{Binding valortotal, StringFormat='Total: R$ {0:N}'}" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontAttributes="Bold" Grid.Column="2" Grid.RowSpan="2" Grid.Row="0"/>
-            </Grid>
+              <Label Text="{Binding valortotal, StringFormat='Total: R$ {0:N}'}" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Column="2" Grid.Row="0"/>
+              <Label Text="Finalizado" IsVisible="{Binding isfinalizado}" TextColor="#2ecc71" FontAttributes="Italic" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Grid.Column="2" Grid.Row="1"/>
+              <Label Text="Aguardando Retirada" IsVisible="{Binding naofinalizado}" TextColor="#F44336" FontAttributes="Italic" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Grid.Column="2" Grid.Row="1"/>
+          </Grid>
           </ViewCell>
         </DataTemplate>
       </ListView.ItemTemplate>

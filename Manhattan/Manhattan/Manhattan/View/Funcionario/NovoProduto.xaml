@@ -7,13 +7,39 @@
     <ScrollView>
     <StackLayout>
       <Grid>
-        <Entry Grid.Row="0" Text="" Placeholder="Nome" x:Name="NomeEntry"/>
-        <Entry Grid.Row="1" Text="" Placeholder="Descrição" x:Name="DescricaoEntry"/>
-        <Entry Grid.Row="2" Text="" Placeholder="Tipo" x:Name="TipoEntry" TextChanged="TipoChanged"/>
-        <Entry Grid.Row="3" Text="" Placeholder="Preço" x:Name="PrecoEntry" Keyboard="Numeric" TextChanged="PrecoChanged"/>
-        <Entry Grid.Row="4" Text="" Placeholder="Quantidade em Estoque" x:Name="qtdEstoqueEntry" Keyboard="Numeric" TextChanged="UnidChanged"/>
-        <Button Grid.Row="5" x:Name="Botao" Text="" Style="{StaticResource StyleRedButton}" Clicked="BotaoClicked"/>
-        <Button Grid.Row="6" Text="Cancelar" Style="{StaticResource StyleBlueButton}" Clicked="CancelarClicked"/>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Entry Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="" Placeholder="Nome" x:Name="NomeEntry"/>
+        <Entry Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="" Placeholder="Descrição" x:Name="DescricaoEntry"/>
+        <Picker Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="2" Title="Selecione um tipo" x:Name="TipoPicker" HorizontalOptions="FillAndExpand">
+          <Picker.Items>
+            <x:String>Bebida</x:String>
+            <x:String>Salgado</x:String>
+            <x:String>Doce</x:String>
+          </Picker.Items>
+        </Picker>
+        <Entry Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="" Placeholder="Preço" x:Name="PrecoEntry" Keyboard="Numeric" TextChanged="PrecoChanged"/>
+
+        <StackLayout Grid.Row="4" Grid.Column="1" VerticalOptions="Center" Orientation="Horizontal">
+          <Button Text="-" Command="{Binding DiminuirCommand}" Clicked="DiminuirClicked" x:Name="DiminuirButton" WidthRequest="50" Style="{StaticResource StyleRedButton}"/>
+          <Label VerticalTextAlignment="Center" FontSize="20" Text="0" x:Name="QuantidadeLabel"/>
+          <Button Text="+" Command="{Binding AumentarCommand}" Clicked="AumentarClicked" x:Name="AumentarButton" WidthRequest="50" Style="{StaticResource StyleRedButton}"/>
+        </StackLayout>
+        
+          <Label Text="Quantidade: " Grid.Row="4" Grid.Column="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" FontSize="18"/>    
+        <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" x:Name="Botao" Text="" Style="{StaticResource StyleRedButton}" Clicked="BotaoClicked"/>
+        <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="Cancelar" Style="{StaticResource StyleBlueButton}" Clicked="CancelarClicked"/>
       </Grid>
     </StackLayout>
     </ScrollView>

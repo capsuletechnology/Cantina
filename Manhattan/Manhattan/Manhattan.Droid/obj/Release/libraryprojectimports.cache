@@ -2,10 +2,10 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>H:\Manhattan Project\09.12\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>H:\Manhattan Project\09.12\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>H:\Manhattan Project\09.12\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\ZXing.Net.Mobile.Forms.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>H:\Manhattan Project\09.12\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\ZXingNetMobile\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\CantinaSenac\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\CantinaSenac\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\CantinaSenac\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\ZXing.Net.Mobile.Forms.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\CantinaSenac\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\ZXingNetMobile\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
@@ -15,9 +15,9 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>H:\Manhattan Project\09.12\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>H:\Manhattan Project\09.12\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>H:\Manhattan Project\09.12\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\ZXing.Net.Mobile.Forms.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>H:\Manhattan Project\09.12\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\ZXingNetMobile.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\CantinaSenac\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\CantinaSenac\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\CantinaSenac\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\ZXing.Net.Mobile.Forms.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\CantinaSenac\Manhattan\Manhattan\Manhattan.Droid\obj\Release\__library_projects__\ZXingNetMobile.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

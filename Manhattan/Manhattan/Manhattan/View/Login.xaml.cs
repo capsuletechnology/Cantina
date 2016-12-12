@@ -20,8 +20,24 @@ namespace Manhattan.View
         {
             NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();            
-            App.session = new Model.Cliente();           
+            App.session = new Model.Cliente();
+
+            var tapRecuperarConta = new TapGestureRecognizer();
+            tapRecuperarConta.Tapped += async (s, e) =>
+            {
+                if (Active)
+                {
+                    Active = false;
+
+                    await Task.Delay(250);
+
+                    Application.Current.MainPage = new RecuperarConta();
+                }
+            };
+            RecuperarLabel.GestureRecognizers.Add(tapRecuperarConta);      
         }
+
+
 
         protected override void OnAppearing()
         {

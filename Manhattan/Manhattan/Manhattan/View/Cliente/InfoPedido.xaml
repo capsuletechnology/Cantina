@@ -2,56 +2,61 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 		x:Class="Manhattan.View.Cliente.InfoPedido"
-		Title="Informação do Pedido"
-		Padding="10">
+		Title="Informação do Pedido">
   <ContentPage.Content>
-      <StackLayout>
-      <StackLayout Orientation="Horizontal">
-        <Label Text="{Binding Codigo, StringFormat='Pedido #{0}'}" FontAttributes="Bold"/>
-        <Label Text="-"/>
-        <Label Text="{Binding Data}"/>
+    <StackLayout>
+      <StackLayout Padding="0,12,0,12">
+        <Label Text="{Binding Codigo, StringFormat='CÓDIGO {0}'}" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
       </StackLayout>
-      <StackLayout Orientation="Horizontal">
-        <Label Text="{Binding Cliente.nome}"/>
-        <Label Text="-"/>
-        <Label Text="{Binding Cliente.cpf}"/>
+      <StackLayout Padding="10">
+        <StackLayout Orientation="Horizontal">
+          <Label Text="{Binding NumeroPedido, StringFormat='Pedido #{0}'}" FontAttributes="Bold"/>
+          <Label Text="-" FontAttributes="Bold"/>
+          <Label Text="{Binding Data}" FontAttributes="Bold"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="{Binding Cliente.nome}" FontAttributes="Bold"/>
+          <Label Text="{Binding Cliente.sobrenome}" FontAttributes="Bold"/>
+          <Label Text="-" FontAttributes="Bold"/>
+          <Label Text="{Binding Cliente.cpf}" FontAttributes="Bold"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Total:" FontAttributes="Bold"/>
+          <Label Text="{Binding ValorTotal, StringFormat='R$ {0:N}'}" FontAttributes="Bold"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Status:" FontAttributes="Bold"/>
+          <Label x:Name="AguardandoLabel" Text="Aguardando Retirada" FontAttributes="Bold" TextColor="#F44336" IsVisible="False"/>
+          <Label x:Name="FinalizadoLabel" Text="Finalizado" FontAttributes="Bold" TextColor="#00E676" IsVisible="False"/>
+        </StackLayout>
+        <Button x:Name="QRCodeButton" Text="CÓDIGO PARA ESCANEAMENTO" Clicked="ScanClicked" Style="{StaticResource StyleRedButton}" IsVisible="False"/>
+        <Label Text="Itens:" FontSize="Large" FontAttributes="Bold"/>
+        <ListView x:Name="listViewPedidos" ItemTapped="OnItemTapped">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+                <ScrollView>
+                  <Grid>
+                    <Grid.RowDefinitions>
+                      <RowDefinition Height="Auto" />
+                      <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="5"/>
+                      <ColumnDefinition Width="*"/>
+                      <ColumnDefinition Width="Auto"/>
+                      <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="{Binding nome}" VerticalTextAlignment="Center" FontAttributes="Bold" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2"/>
+                    <Label Text="{Binding qtdrequisitada, StringFormat='{0} Unidade(s)'}" FontAttributes="Bold" Grid.Column="2" HorizontalOptions="End" Grid.Row="0"/>
+                    <Label Text="{Binding valortotal, StringFormat='R$ {0:N}'}" FontAttributes="Bold" Grid.Column="2" HorizontalOptions="End" Grid.Row="1"/>
+                  </Grid>
+                </ScrollView>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
       </StackLayout>
-      <StackLayout Orientation="Horizontal">
-        <Label Text="Total:" FontAttributes="Bold"/>
-        <Label Text="{Binding ValorTotal, StringFormat='R$ {0:N}'}" FontAttributes="Bold"/>
-      </StackLayout>
-      <StackLayout Orientation="Horizontal">
-        <Label Text="Status:" FontAttributes="Bold"/>
-        <Label x:Name="AguardandoLabel" Text="Aguardando Retirada" TextColor="#F44336"/>
-        <Label x:Name="FinalizadoLabel" Text="Finalizado" TextColor="#00E676"/>
-      </StackLayout>
-      <Button x:Name="QRCodeButton" Text="CÓDIGO PARA ESCANEAMENTO" Clicked="ScanClicked" Style="{StaticResource StyleRedButton}"/>
-      <Label Text="Itens:" FontSize="Large" FontAttributes="Bold"/>        
-      <ListView x:Name="listViewPedidos" ItemTapped="OnItemTapped">
-        <ListView.ItemTemplate>
-          <DataTemplate>
-            <ViewCell>
-              <ScrollView>
-              <Grid>
-                <Grid.RowDefinitions>
-                  <RowDefinition Height="Auto" />
-                  <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                  <ColumnDefinition Width="5"/>
-                  <ColumnDefinition Width="*"/>
-                  <ColumnDefinition Width="Auto"/>
-                  <ColumnDefinition Width="5"/>
-                </Grid.ColumnDefinitions>
-                <Label Text="{Binding nome}" VerticalTextAlignment="Center" FontAttributes="Bold" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2"/>
-                <Label Text="{Binding qtdrequisitada, StringFormat='{0} Unidades'}" FontAttributes="Bold" Grid.Column="2" HorizontalOptions="End" Grid.Row="0"/>
-                <Label Text="{Binding valortotal, StringFormat='R$ {0:N}'}" FontAttributes="Bold" Grid.Column="2" HorizontalOptions="End" Grid.Row="1"/>
-              </Grid>
-            </ScrollView>
-            </ViewCell>
-          </DataTemplate>
-        </ListView.ItemTemplate>
-      </ListView>
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>

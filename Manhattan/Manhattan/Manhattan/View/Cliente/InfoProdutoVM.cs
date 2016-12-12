@@ -12,8 +12,6 @@ namespace Manhattan.View.Cliente
     {
         Model.Produto VerificarProduto = new Model.Produto();
 
-        bool Alerta;
-
         public string nome;
         public string Nome
         {
@@ -56,8 +54,6 @@ namespace Manhattan.View.Cliente
         {
             VerificarProduto = produto;
 
-            Alerta = true;
-
             Nome = produto.nome;
             Preco = produto.preco;
             Descricao = produto.descricao;
@@ -67,7 +63,7 @@ namespace Manhattan.View.Cliente
             {
                 QuantidadeCompra = 0;
 
-                Application.Current.MainPage.DisplayAlert("Produto indisponível","O produto pode estar sem unidades,\n Tente novamente mais tarde.","OK");
+                Application.Current.MainPage.DisplayAlert("Produto indisponível","Produto em falta no estoque,\n Tente novamente mais tarde.","OK");
             }
             else
             {
@@ -95,9 +91,7 @@ namespace Manhattan.View.Cliente
         {
             if (QuantidadeCompra == VerificarProduto.qtdestoque)
             {                
-                if (Alerta)
-                    Application.Current.MainPage.DisplayAlert("Quantidade máxima alcançada!", "Não há mais unidades do produto disponíveis", "OK");
-                Alerta = false;
+                Application.Current.MainPage.DisplayAlert("Quantidade máxima alcançada!", "Não há mais unidades do produto disponíveis", "OK");
             }
             else
             {

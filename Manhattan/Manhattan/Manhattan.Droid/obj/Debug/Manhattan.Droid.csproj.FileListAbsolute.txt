@@ -315,4 +315,3 @@ C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manha
 C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\obj\Debug\Manhattan.Droid.dll.mdb
-C:\Users\Kingdom\Documents\Visual Studio 2015\Projects\Manhattan\Manhattan\Manhattan.Droid\bin\Debug\Manhattan.Droid.dll.mdb

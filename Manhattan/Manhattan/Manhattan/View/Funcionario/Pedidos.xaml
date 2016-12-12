@@ -8,7 +8,7 @@
   </ContentPage.ToolbarItems>
   <ContentPage.Content>
     <StackLayout>
-      <ListView x:Name="listViewPedidos" VerticalOptions="FillAndExpand" ItemTapped="onItemTapped" SeparatorVisibility="Default" SeparatorColor="#939393">
+      <ListView x:Name="listViewPedidos" Refreshing="OnRefresh" IsPullToRefreshEnabled="True" VerticalOptions="FillAndExpand" ItemTapped="onItemTapped" SeparatorVisibility="Default" SeparatorColor="#939393">
         <ListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
@@ -20,14 +20,18 @@
                 <Grid.ColumnDefinitions>
                   <ColumnDefinition Width="5"/>
                   <ColumnDefinition Width="Auto"/>
-                  <ColumnDefinition Width="*"/>
+                  <ColumnDefinition Width="Auto"/>
+                  <ColumnDefinition Width="Auto"/>
                   <ColumnDefinition Width="*"/>
                   <ColumnDefinition Width="5"/>
                 </Grid.ColumnDefinitions>
-                <Label Text="{Binding codigo, StringFormat='Pedido #{0} - '}" FontAttributes="Bold" Grid.Column="1" Grid.Row="0"/>
-                <Label Text="{Binding cliente.nome}" Grid.Column="2" Grid.Row="0"/>
-                <Label Text="{Binding valortotal, StringFormat='Total: R$ {0:N}'}" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Grid.Column="3" Grid.Row="0" Grid.RowSpan="2"/>
-                <Label Text="{Binding data}" FontAttributes="Bold" Grid.Column="1" Grid.Row="1"/>
+                <Label Text="{Binding codigo, StringFormat='Código {0} -'}" FontAttributes="Bold" Grid.Column="1" Grid.Row="0"/>
+                <Label Text="{Binding cliente.nome}" FontAttributes="Bold" Grid.Column="2" Grid.Row="0"/>
+                <Label Text="{Binding cliente.sobrenome}" FontAttributes="Bold" Grid.Column="3" Grid.Row="0"/>
+                <Label Text="{Binding valortotal, StringFormat='Total: R$ {0:N}'}" FontAttributes="Bold" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Grid.Column="4" Grid.Row="0"/>
+                <Label Text="{Binding data}" Grid.Column="1" Grid.Row="1"/>
+                <Label Text="Finalizado" IsVisible="{Binding isfinalizado}" TextColor="#2ecc71" FontAttributes="Italic" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Grid.Column="4" Grid.Row="1"/>
+                <Label Text="Aguardando Retirada" IsVisible="{Binding naofinalizado}" TextColor="#F44336" FontAttributes="Italic" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Grid.Column="4" Grid.Row="1"/>
               </Grid>
             </ViewCell>
           </DataTemplate>

@@ -51,28 +51,28 @@ namespace Manhattan.View.Cliente
             }
         }
 
-        public void CpfChanged(object sender, TextChangedEventArgs e)
-        {
-            var ev = e as TextChangedEventArgs;
+        //public void CpfChanged(object sender, TextChangedEventArgs e)
+        //{
+        //    var ev = e as TextChangedEventArgs;
 
-            if (ev.NewTextValue != ev.OldTextValue)
-            {
-                var entry = (Entry)sender;
-                string text = Regex.Replace(ev.NewTextValue, @"[^0-9]", "");
+        //    if (ev.NewTextValue != ev.OldTextValue)
+        //    {
+        //        var entry = (Entry)sender;
+        //        string text = Regex.Replace(ev.NewTextValue, @"[^0-9]", "");
 
-                text = text.PadRight(11);
+        //        text = text.PadRight(11);
 
 
-                if (text.Length > 11)
-                {
-                    text = text.Remove(11);
-                }
+        //        if (text.Length > 11)
+        //        {
+        //            text = text.Remove(11);
+        //        }
 
-                text = text.Insert(3, ".").Insert(7, ".").Insert(11, "-").TrimEnd(new char[] { ' ', '.', '-' });
-                if (entry.Text != text)
-                    entry.Text = text;
-            }
-        }
+        //        text = text.Insert(3, ".").Insert(7, ".").Insert(11, "-").TrimEnd(new char[] { ' ', '.', '-' });
+        //        if (entry.Text != text)
+        //            entry.Text = text;
+        //    }
+        //}
 
         public void NameChanged(object sender, TextChangedEventArgs e)
         {
@@ -127,7 +127,7 @@ namespace Manhattan.View.Cliente
                 NomeEntry.IsEnabled = true;
                 SobrenomeEntry.IsEnabled = true;
                 TelefoneEntry.IsEnabled = true;
-                CPFEntry.IsEnabled = true;
+                //CPFEntry.IsEnabled = true;
                 AlterarButton.IsVisible = false;
                 SalvarButton.IsVisible = true;
 
@@ -165,7 +165,7 @@ namespace Manhattan.View.Cliente
                 if (AlterarSenha)
                 {
                     if (string.IsNullOrEmpty(NomeEntry.Text) || string.IsNullOrEmpty(SobrenomeEntry.Text) || string.IsNullOrEmpty(TelefoneEntry.Text) 
-                        || string.IsNullOrEmpty(CPFEntry.Text) || string.IsNullOrEmpty(SenhaEntry.Text) || string.IsNullOrEmpty(ConfirmarSenhaEntry.Text))
+                        /*|| string.IsNullOrEmpty(CPFEntry.Text)*/ || string.IsNullOrEmpty(SenhaEntry.Text) || string.IsNullOrEmpty(ConfirmarSenhaEntry.Text))
                     {
                         await DisplayAlert("Aviso", "Preencha todos os campos", "OK");
                         SalvarButtonSenha.IsEnabled = true;
@@ -173,7 +173,7 @@ namespace Manhattan.View.Cliente
                         return;
                     }
                     if (string.IsNullOrWhiteSpace(NomeEntry.Text) || string.IsNullOrWhiteSpace(SobrenomeEntry.Text) || string.IsNullOrWhiteSpace(TelefoneEntry.Text) 
-                        || string.IsNullOrWhiteSpace(CPFEntry.Text) || string.IsNullOrWhiteSpace(SenhaEntry.Text) || string.IsNullOrWhiteSpace(ConfirmarSenhaEntry.Text))
+                        /*|| string.IsNullOrWhiteSpace(CPFEntry.Text)*/ || string.IsNullOrWhiteSpace(SenhaEntry.Text) || string.IsNullOrWhiteSpace(ConfirmarSenhaEntry.Text))
                     {
                         await DisplayAlert("Aviso", "Preencha todos os campos", "OK");
                         SalvarButtonSenha.IsEnabled = true;
@@ -185,7 +185,7 @@ namespace Manhattan.View.Cliente
                 else
                 {
                     if (string.IsNullOrEmpty(NomeEntry.Text) || string.IsNullOrEmpty(SobrenomeEntry.Text) 
-                        || string.IsNullOrEmpty(TelefoneEntry.Text) || string.IsNullOrEmpty(CPFEntry.Text))                     
+                        || string.IsNullOrEmpty(TelefoneEntry.Text) /*|| string.IsNullOrEmpty(CPFEntry.Text)*/)                     
                     {
                         await DisplayAlert("Aviso", "Preencha todos os campos", "OK");
                         SalvarButton.IsEnabled = true;
@@ -194,7 +194,7 @@ namespace Manhattan.View.Cliente
                     }
 
                     if (string.IsNullOrWhiteSpace(NomeEntry.Text) || string.IsNullOrWhiteSpace(SobrenomeEntry.Text)
-                        || string.IsNullOrWhiteSpace(TelefoneEntry.Text) || string.IsNullOrWhiteSpace(CPFEntry.Text))
+                        || string.IsNullOrWhiteSpace(TelefoneEntry.Text) /*|| string.IsNullOrWhiteSpace(CPFEntry.Text)*/)
                     {
                         await DisplayAlert("Aviso", "Preencha todos os campos", "OK");
                         SalvarButton.IsEnabled = true;
@@ -211,13 +211,13 @@ namespace Manhattan.View.Cliente
                     return;
                 }
 
-                if (CPFEntry.Text.Length < 14)
-                {
-                    await DisplayAlert("Aviso", "CPF incorreto", "OK");
-                    if (AlterarSenha) { SalvarButtonSenha.IsEnabled = true; } else { SalvarButton.IsEnabled = true; }
-                    Active = true;
-                    return;
-                }
+                //if (CPFEntry.Text.Length < 14)
+                //{
+                //    await DisplayAlert("Aviso", "CPF incorreto", "OK");
+                //    if (AlterarSenha) { SalvarButtonSenha.IsEnabled = true; } else { SalvarButton.IsEnabled = true; }
+                //    Active = true;
+                //    return;
+                //}
 
                 if (SenhaEntry.Text.Contains(" "))
                 {
@@ -243,7 +243,7 @@ namespace Manhattan.View.Cliente
                 NomeEntry.IsEnabled = false;
                 SobrenomeEntry.IsEnabled = false;
                 TelefoneEntry.IsEnabled = false;
-                CPFEntry.IsEnabled = false;
+                //CPFEntry.IsEnabled = false;
                 SenhaEntry.IsEnabled = false;
                 ConfirmarSenhaEntry.IsEnabled = false;
 
@@ -251,7 +251,7 @@ namespace Manhattan.View.Cliente
                 cliente.nome = NomeEntry.Text;
                 cliente.sobrenome = SobrenomeEntry.Text;
                 cliente.telefone = TelefoneEntry.Text;
-                cliente.cpf = CPFEntry.Text;
+                cliente.cpf = App.session.cpf;
                 cliente.usuario = App.session.usuario;
                 cliente.senha = SenhaEntry.Text;
 
@@ -281,7 +281,7 @@ namespace Manhattan.View.Cliente
             NomeEntry.Text = App.session.nome;
             SobrenomeEntry.Text = App.session.sobrenome;
             TelefoneEntry.Text = App.session.telefone;
-            CPFEntry.Text = App.session.cpf;
+            //CPFEntry.Text = App.session.cpf;
             UsuarioLabel.Text = "Usuário: " + App.session.usuario;
             SenhaEntry.Text = App.session.senha;
             ConfirmarSenhaEntry.Text = App.session.senha;

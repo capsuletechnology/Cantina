@@ -5,7 +5,7 @@
 		Title="Doces">
   <ContentPage.Content>
     <StackLayout>
-      <ListView x:Name="listViewDoces" ItemTapped="OnItemTapped" SeparatorVisibility="Default" SeparatorColor="#939393">
+      <ListView x:Name="listViewDoces" CachingStrategy="RecycleElement" ItemTapped="onItemTapped" SeparatorVisibility="Default" SeparatorColor="#939393">
         <ListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
